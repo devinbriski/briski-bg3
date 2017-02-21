@@ -1,0 +1,93 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #F5F5F5;
+	font-family: Candara, Charter, Asul
+}
+
+.nav {
+	width: 100%;
+	padding: 30px;
+	font-family: Asul;
+	font-size: 40px;
+	font-weight: 900;
+	background-color: #650000;
+	color: #FFFFFF;
+}
+
+.container {
+	padding: 10px;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.kicker {
+	color: #6001FF;
+	font-weight: 900;
+	padding: 30px 0;
+	text-decoration: underline;
+	text-align: center;
+}
+
+.byline {
+	width: 100%;
+	padding: 0px;
+	font-family: Candara;
+	text-align: right;
+	font-size: 40px;
+	line-height: 70px;
+	background-color: #121212;
+	color: #FFFFFF;
+	  animation-duration: 3s;
+  animation-name: slideright;
+	}
+
+@keyframes slideright {
+  from {
+    margin-right: 300%;
+    width: 0%; 
+  }
+
+  to {
+    margin-right: 0%;
+    width: 0%;
+  }
+}
+
+.image {
+	padding: 0px;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+.content p {
+	font-family: Charter;
+	font-size: 20px;
+	line-height: 28px;
+}
+.headline {
+	width: 100%;
+	padding: 0px;
+	font-family: Candara;
+	text-align: right;
+	font-size: 70px;
+	line-height: 70px;
+	font-weight: 900;
+	background-color: #121212;
+	color: #FFFFFF;
+
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
